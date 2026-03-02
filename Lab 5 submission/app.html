@@ -1,0 +1,19 @@
+<h1>Student app</h1>
+@for(student of students;track $index){
+  <ul>
+    <!--Student Output-->
+    <li>{{student.name}}</li>
+    <li>{{student.age}}</li>
+    <li>{{student.id}}</li>
+    <li>{{student.address}}</li>
+    <li>{{student.course}}</li>
+  </ul>
+  
+}
+
+  <br> 
+  <br>
+<h1> Weather In Galway</h1>
+<!--Weather Output-->
+{{weather[0].main}}, {{weather[0].description}}
+<p></p>
